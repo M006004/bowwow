@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>bowwow</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>10:10</span>
+      </div>
+      <div class="status-bar__column">
+        <span>100%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+    <header class="welcome-header">
+      <div class="welcome-header__back">
+        <img src="img/indexpuppy.png" />
+      </div>
+      <h2>Welcome to</h2>
+      <img class="logo" src="img/indexlogo.png" />
+      <p class="welcome-header__text">
+        If you have a Bowwow Account, log in with your email or phone number.
+      </p>
+    </header>
+
+    <form action="friends.html" method="get" id="login-form">
+      <input name="username" required type="text" placeholder="Email or phone number" />
+      <input name="password" required type="password" placeholder="Password" />
+      <input type="submit" value="Login" /> 
+      <input type="submit" value="Join" /> 
+      <a href="#">Find Account or Password</a>
+    </form>
+
+    <div id="no-mobile">
+      <img src="img/nomobile.png" />
+      <span> Your screen is too big<i class="fas fa-paw"></i></span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/ba06a75ffb.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

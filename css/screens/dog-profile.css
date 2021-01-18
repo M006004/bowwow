@@ -1,0 +1,68 @@
+.dog-profile {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background-color: var(--main-color);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+}
+.dog-profile img {
+  width: 350px;
+  height: 430px;
+  margin-left: 50px;
+}
+.dog-profile__list-box_maru {
+  width: 320px;
+  height: 400px;
+}
+.dog-profile__list-box_pepe {
+  width: 320px;
+  height: 390px;
+}
+.dog-profile__list {
+  border-radius: 25% 25% 0% 0%;
+  background-color: white;
+  width: 100vw;
+  height: 40vh;
+  position: absolute;
+  margin-bottom: -700px;
+}
+.dog-profile__list-box {
+  display: flex;
+  justify-content: space-between;
+  margin: var(--horizontal-space);
+  color: var(--main-color);
+  font-size: 40px;
+}
+.dog-profile__list-box__text {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.dog-profile__list-box__text:first-child {
+  margin-top: 60px;
+  font-weight: 700;
+}
+.dog-profile__list-box__text:nth-child(2) {
+  margin-top: -20px;
+  font-size: 25px;
+}
+.dog-profile__list-box__text:nth-child(3) {
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+}
+.profile-button {
+  padding: 8px 50px;
+  margin: 10px 10px;
+  border-radius: 25px;
+  background-color: #f9887e85;
+  border: 2px solid #f9897e;
+}
+.profile-button:hover {
+  background-color: #f9887eb0;
+}

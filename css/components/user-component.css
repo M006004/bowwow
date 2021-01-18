@@ -1,0 +1,94 @@
+.user-component {
+  justify-content: space-between;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 90vw;
+  height: 7vh;
+  border-radius: 50px;
+  background-color: #f9887e1c;
+  border: 2px solid #f9887e75;
+  transition: all 0.2s ease-in-out;
+}
+.user-component,
+.user-component__column:first-child {
+  display: flex;
+  align-items: center;
+}
+.user-component-sm {
+  width: 90vw;
+  height: 5vh;
+  border-radius: 50px;
+  background-color: #f9887e1c;
+  border: 2px solid #f9887e75;
+  margin-bottom: 20px;
+}
+.user-component img {
+  margin-left: 20px;
+}
+.user-component:hover {
+  background-color: #f9887e60;
+}
+.user-component__avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 30px;
+  margin-right: 20px;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  filter: drop-shadow(3px 3px 3px #f9887e60);
+}
+.user-component__title {
+  font-weight: 700;
+  font-size: 25px;
+  color: var(--main-color);
+}
+.user-component__subtitle {
+  margin-top: 8px;
+  font-size: 17px;
+  color: var(--gray5);
+}
+.user-component__avatar--xl {
+  width: 80px;
+  height: 80px;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  filter: drop-shadow(3px 3px 3px #f9887e60);
+}
+.user-component__avatar--sm {
+  width: 60px;
+  height: 60px;
+  border-radius: 22px;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  filter: drop-shadow(3px 3px 3px #f9887e60);
+}
+.user-component__title--not-bold {
+  margin-right: 20px;
+  font-weight: 700;
+}
+.user-component__column:last-child {
+  color: var(--main-color);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  font-weight: 400;
+  font-size: 15px;
+  margin-right: 25px;
+}
+.user-component__time {
+  margin-bottom: 10px;
+  display: block;
+}
+.user-component__phone-number {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.user-component__phone-number i {
+  margin-top: 7px;
+  margin-left: 7px;
+  color: var(--main-color);
+}
+.user-component__more {
+  margin-top: 30px;
+}
+.user-component-chats {
+  margin-top: 35px;
+}
